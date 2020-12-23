@@ -1,0 +1,51 @@
+.playGround {
+    text-align: center;
+    margin: 0 auto;
+    background-color: pink;
+    width: 400px;
+}
+
+.grid {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    background-color: pink;
+    background: url(img/doodleBack.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-size: 200px;
+    font-family: "Montserrat", sans-serif;
+    color: brown;
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    position: absolute;
+    background-color: cornflowerblue;
+    border-radius: 30px 30px 0 0;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    position: absolute;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+button {
+    padding: 20px 40px;
+    margin: 10px auto;
+    font-size: 30px;
+    color: brown;
+    background-color: transparent;
+    border: 3px solid cornflowerblue;
+    outline: none;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    color: white;
+}

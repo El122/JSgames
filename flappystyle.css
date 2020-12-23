@@ -1,0 +1,61 @@
+.playGround {
+    width: 500px;
+    height: 730px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.sky {
+    background: url(img/flappyBack.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    position: absolute;
+    width: 500px;
+    height: 580px;
+}
+
+.ground {
+    background-color: rgb(255, 152, 169);
+
+    position: absolute;
+    top: 580px;
+    width: 500px;
+    height: 150px;
+}
+
+.bird {
+    background: url(img/flappyBird.png) no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    width: 60px;
+    height: 45px;
+}
+
+.obstacle {
+    background-color: coral;
+
+    width: 60px;
+    height: 300px;
+
+    position: absolute;
+}
+
+button {
+    padding: 20px 40px;
+    margin: 10px auto;
+    font-size: 30px;
+    color: brown;
+    background-color: transparent;
+    border: 3px solid cornflowerblue;
+    outline: none;
+
+    position: absolute;
+    bottom: 0;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
