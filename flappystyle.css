@@ -17,11 +17,12 @@
 
 .ground {
     background-color: rgb(255, 152, 169);
+    z-index: 10;
 
     position: absolute;
     top: 580px;
     width: 500px;
-    height: 150px;
+    height: 130px;
 }
 
 .bird {
@@ -34,7 +35,8 @@
 }
 
 .obstacle {
-    background-color: coral;
+    background: url(img/flappyObstacle.png) no-repeat;
+    background-size: contain;
 
     width: 60px;
     height: 300px;
@@ -42,20 +44,13 @@
     position: absolute;
 }
 
-button {
-    padding: 20px 40px;
-    margin: 10px auto;
-    font-size: 30px;
-    color: brown;
-    background-color: transparent;
-    border: 3px solid cornflowerblue;
-    outline: none;
+.topObstacle {
+    background: url(img/flappyObstacle.png) no-repeat;
+    transform: rotate(180deg);
+    background-size: contain;
+
+    width: 60px;
+    height: 300px;
 
     position: absolute;
-    bottom: 0;
-}
-
-button:hover {
-    background-color: cornflowerblue;
-    color: white;
 }
